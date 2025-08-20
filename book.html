@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book a Service - Regius Sport Powerwashing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: white;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      color: #1e90ff;
+    }
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+      text-align: left;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      background: #1e90ff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #187bcd;
+    }
+    .back-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 24px;
+      background: #1e90ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .back-button:hover {
+      background: #187bcd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Book a Service</h1>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="address">Address</label>
+    <input type="text" id="address" name="address" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="details">Service Details</label>
+    <textarea id="details" name="details" rows="4"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Back Button -->
+  <a href="index.html" class="back-button">Back</a>
+</body>
+</html>
